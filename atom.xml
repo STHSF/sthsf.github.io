@@ -48,4 +48,57 @@
     
   </entry>
   
+  <entry>
+    <title>[Hexo] Theme BeanTech</title>
+    <link href="http://yoursite.com/2017/03/18/hexo-theme-beantech/"/>
+    <id>http://yoursite.com/2017/03/18/hexo-theme-beantech/</id>
+    <published>2017-03-18T02:51:24.000Z</published>
+    <updated>2017-08-22T02:50:18.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>Ported Theme of <a href="https://github.com/Huxpro/huxpro.github.io" target="_blank" rel="external">Hux Blog</a>, Thank <a href="https://github.com/Huxpro" target="_blank" rel="external">Huxpro</a> for designing such a flawless theme.</p>
+<p>This BeanTech theme created by <a href="http://beantech.org" target="_blank" rel="external">YuHsuan</a> modified from the original Porter <a href="http://kaijun.rocks/hexo-theme-huxblog/" target="_blank" rel="external">Kaijun</a></p>
+</blockquote>
+<h1 id="Live-Demo"><a href="#Live-Demo" class="headerlink" title="Live Demo"></a><a href="http://beantech.org" target="_blank" rel="external">Live Demo</a></h1><hr>
+<p><img src="http://beantech.org/img/beantech-desktop.png" alt="BeanTech Desktop"></p>
+<h1 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h1><hr>
+<p>I publish the whole project for your convenience, so you can just follow the instruction down below, then you can easily customiz your own blog!</p>
+<p>Let’s begin!!!</p>
+<h2 id="Init"><a href="#Init" class="headerlink" title="Init"></a>Init</h2><hr>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">git <span class="built_in">clone</span> https://github.com/YenYuHsuan/hexo-theme-beantech.git ./hexo-beantech</div><div class="line"><span class="built_in">cd</span> hexo-beantech</div><div class="line">npm install</div></pre></td></tr></table></figure>
+<h2 id="Modify"><a href="#Modify" class="headerlink" title="Modify"></a>Modify</h2><hr>
+<p>Modify <code>_config.yml</code> file with your own info.<br>Especially the section:</p>
+<h3 id="Deployment"><a href="#Deployment" class="headerlink" title="Deployment"></a>Deployment</h3><p>Replace to your own repo!<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">  type:</span> <span class="string">git</span></div><div class="line"><span class="attr">  repo:</span> <span class="attr">https://github.com/&lt;yourAccount&gt;/&lt;repo&gt;</span></div><div class="line"><span class="attr">  branch:</span> <span class="string">&lt;your-branch&gt;</span></div></pre></td></tr></table></figure></p>
+<h3 id="Sidebar-settings"><a href="#Sidebar-settings" class="headerlink" title="Sidebar settings"></a>Sidebar settings</h3><p>Copy your avatar image to <code>&lt;root&gt;/img/</code> and modify the <code>_config.yml</code>:<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="attr">sidebar:</span> <span class="literal">true</span>    <span class="comment"># whether or not using Sidebar.</span></div><div class="line"><span class="attr">sidebar-about-description:</span> <span class="string">"&lt;your description&gt;"</span></div><div class="line"><span class="attr">sidebar-avatar:</span> <span class="string">img/&lt;your</span> <span class="string">avatar</span> <span class="string">path&gt;</span></div></pre></td></tr></table></figure></p>
+<p>and activate your personal widget you like<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="attr">widgets:</span>         <span class="comment"># here are widget you can use, you can comment out</span></div><div class="line"><span class="bullet">-</span> <span class="string">featured-tags</span></div><div class="line"><span class="bullet">-</span> <span class="string">short-about</span></div><div class="line"><span class="bullet">-</span> <span class="string">recent-posts</span></div><div class="line"><span class="bullet">-</span> <span class="string">friends-blog</span></div><div class="line"><span class="bullet">-</span> <span class="string">archive</span></div><div class="line"><span class="bullet">-</span> <span class="string">category</span></div></pre></td></tr></table></figure></p>
+<p>if you want to add sidebar widget, please add at <code>layout/_widget</code>.</p>
+<h3 id="Signature-Setup"><a href="#Signature-Setup" class="headerlink" title="Signature Setup"></a>Signature Setup</h3><p>Copy your signature image to <code>&lt;root&gt;/img/signature</code> and modify the <code>_config.yml</code>:<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="attr">signature:</span> <span class="literal">true</span>   <span class="comment"># show signature</span></div><div class="line"><span class="attr">signature-img:</span> <span class="string">img/signature/&lt;your-signature-ID&gt;</span></div></pre></td></tr></table></figure></p>
+<h3 id="Go-to-top-icon-Setup"><a href="#Go-to-top-icon-Setup" class="headerlink" title="Go to top icon Setup"></a>Go to top icon Setup</h3><p>My icon is using iron man, you can change to your own icon at <code>css/image</code>.</p>
+<h3 id="Post-tag"><a href="#Post-tag" class="headerlink" title="Post tag"></a>Post tag</h3><p>You can decide to show post tags or not.<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attr">home_posts_tag:</span> <span class="literal">true</span></div></pre></td></tr></table></figure></p>
+<p><img src="home_posts_tag-true.png" alt="home_posts_tag-true"><br><figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attr">home_posts_tag:</span> <span class="literal">false</span></div></pre></td></tr></table></figure></p>
+<p><img src="home_posts_tag-false.png" alt="home_posts_tag-false"></p>
+<h3 id="Markdown-render"><a href="#Markdown-render" class="headerlink" title="Markdown render"></a>Markdown render</h3><p>My markdown render engine plugin is <a href="https://github.com/celsomiranda/hexo-renderer-markdown-it" target="_blank" rel="external">hexo-renderer-markdown-it</a>.<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Markdown-it config</span></div><div class="line"><span class="comment">## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki</span></div><div class="line"><span class="attr">markdown:</span></div><div class="line"><span class="attr">  render:</span></div><div class="line"><span class="attr">    html:</span> <span class="literal">true</span></div><div class="line"><span class="attr">    xhtmlOut:</span> <span class="literal">false</span></div><div class="line"><span class="attr">    breaks:</span> <span class="literal">true</span></div><div class="line"><span class="attr">    linkify:</span> <span class="literal">true</span></div><div class="line"><span class="attr">    typographer:</span> <span class="literal">true</span></div><div class="line"><span class="attr">    quotes:</span> <span class="string">'“”‘’'</span></div></pre></td></tr></table></figure></p>
+<p>and if you want to change the header anchor ‘ℬ’, you can go to <code>layout/post.ejs</code> to change it.<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">async</span>(<span class="string">"https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js"</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">        anchors.options = &#123;</div><div class="line">          visible: <span class="string">'hover'</span>,</div><div class="line">          placement: <span class="string">'left'</span>,</div><div class="line">          icon: ℬ <span class="comment">// this is the header anchor "unicode" icon</span></div><div class="line">        &#125;;</div></pre></td></tr></table></figure></p>
+<h2 id="Hexo-Basics"><a href="#Hexo-Basics" class="headerlink" title="Hexo Basics"></a>Hexo Basics</h2><hr>
+<p>Some hexo command:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">hexo new post <span class="string">"&lt;post name&gt;"</span> <span class="comment"># you can change post to another layout if you want</span></div><div class="line">hexo clean &amp;&amp; hexo generate <span class="comment"># generate the static file</span></div><div class="line">hexo server <span class="comment"># run hexo in local environment</span></div><div class="line">hexo deploy <span class="comment"># hexo will push the static files automatically into the specific branch(gh-pages) of your repo!</span></div></pre></td></tr></table></figure></p>
+<h1 id="Have-fun"><a href="#Have-fun" class="headerlink" title="Have fun ^_^"></a>Have fun ^_^</h1><hr>
+<!-- Place this tag in your head or just before your close body tag. -->
+<p><script async defer src="https://buttons.github.io/buttons.js"></script><br><!-- Place this tag where you want the button to render. --></p>
+<p>Please <a class="github-button" href="https://github.com/YenYuHsuan/hexo-theme-beantech" data-icon="octicon-star" aria-label="Star YenYuHsuan/hexo-theme-beantech on GitHub" target="_blank" rel="external">Star</a> this Project if you like it! <a class="github-button" href="https://github.com/YenYuHsuan" aria-label="Follow @YenYuHsuan on GitHub" target="_blank" rel="external">Follow</a> would also be appreciated!<br>Peace!</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;Ported Theme of &lt;a href=&quot;https://github.com/Huxpro/huxpro.github.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hux Blog&lt;/a&gt;, Thank &lt;a h
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+      <category term="Blog" scheme="http://yoursite.com/tags/Blog/"/>
+    
+  </entry>
+  
 </feed>
