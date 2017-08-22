@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://sthsf.github.io/2017/06/18/ValueError:%20kernel%20already%20exists/</loc>
+    
+    <lastmod>2017-08-22T14:12:21.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://sthsf.github.io/about/index.html</loc>
     
     <lastmod>2017-08-22T14:03:47.000Z</lastmod>
@@ -10,13 +17,6 @@
   
   <url>
     <loc>http://sthsf.github.io/2017/03/18/Build%20personal%20blog%20with%20hexo/</loc>
-    
-    <lastmod>2017-08-22T13:38:51.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://sthsf.github.io/2017/03/18/Build%20personal%20blog%20with%20hexo1/</loc>
     
     <lastmod>2017-08-22T13:38:51.000Z</lastmod>
     
@@ -37,6 +37,13 @@
   </url>
   
   <url>
+    <loc>http://sthsf.github.io/tags/index.html</loc>
+    
+    <lastmod>2017-08-15T18:06:22.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://sthsf.github.io/categories/index.html</loc>
     
     <lastmod>2017-08-15T18:06:22.000Z</lastmod>
@@ -45,13 +52,6 @@
   
   <url>
     <loc>http://sthsf.github.io/repository/index.html</loc>
-    
-    <lastmod>2017-08-15T18:06:22.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://sthsf.github.io/tags/index.html</loc>
     
     <lastmod>2017-08-15T18:06:22.000Z</lastmod>
     
