@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>hello word</title>
+  <title>personal blog</title>
   
   <link href="/atom.xml" rel="self"/>
   
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://sthsf.github.io/2017/03/18/hello-world/"/>
-    <id>http://sthsf.github.io/2017/03/18/hello-world/</id>
+    <link href="http://sthsf.github.io/2017/03/18/Build%20personal%20blog%20with%20hexo/"/>
+    <id>http://sthsf.github.io/2017/03/18/Build personal blog with hexo/</id>
     <published>2017-03-18T02:51:24.000Z</published>
     <updated>2017-08-22T07:51:47.000Z</updated>
     
@@ -49,270 +49,24 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://sthsf.github.io/2017/03/18/hello-world3/"/>
-    <id>http://sthsf.github.io/2017/03/18/hello-world3/</id>
+    <title>ValueError</title>
+    <link href="http://sthsf.github.io/2017/03/18/Build%20personal%20blog%20with%20hexo1/"/>
+    <id>http://sthsf.github.io/2017/03/18/Build personal blog with hexo1/</id>
     <published>2017-03-18T02:51:24.000Z</published>
-    <updated>2017-08-22T07:51:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-    
-    </summary>
-    
-      <category term="Hexo" scheme="http://sthsf.github.io/categories/Hexo/"/>
-    
-    
-      <category term="Hexo" scheme="http://sthsf.github.io/tags/Hexo/"/>
-    
-      <category term="Blog" scheme="http://sthsf.github.io/tags/Blog/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://sthsf.github.io/2017/03/18/hello-world4/"/>
-    <id>http://sthsf.github.io/2017/03/18/hello-world4/</id>
-    <published>2017-03-18T02:51:24.000Z</published>
-    <updated>2017-08-22T07:51:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-    
-    </summary>
-    
-      <category term="Hexo" scheme="http://sthsf.github.io/categories/Hexo/"/>
-    
-    
-      <category term="Hexo" scheme="http://sthsf.github.io/tags/Hexo/"/>
-    
-      <category term="Blog" scheme="http://sthsf.github.io/tags/Blog/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://sthsf.github.io/2017/03/18/hello-world5/"/>
-    <id>http://sthsf.github.io/2017/03/18/hello-world5/</id>
-    <published>2017-03-18T02:51:24.000Z</published>
-    <updated>2017-08-22T07:51:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-    
-    </summary>
-    
-      <category term="Hexo" scheme="http://sthsf.github.io/categories/Hexo/"/>
-    
-    
-      <category term="Hexo" scheme="http://sthsf.github.io/tags/Hexo/"/>
-    
-      <category term="Blog" scheme="http://sthsf.github.io/tags/Blog/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://sthsf.github.io/2017/03/18/hello-world6/"/>
-    <id>http://sthsf.github.io/2017/03/18/hello-world6/</id>
-    <published>2017-03-18T02:51:24.000Z</published>
-    <updated>2017-08-22T07:51:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-    
-    </summary>
-    
-      <category term="Hexo" scheme="http://sthsf.github.io/categories/Hexo/"/>
-    
-    
-      <category term="Hexo" scheme="http://sthsf.github.io/tags/Hexo/"/>
-    
-      <category term="Blog" scheme="http://sthsf.github.io/tags/Blog/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://sthsf.github.io/2017/03/18/hello-world8/"/>
-    <id>http://sthsf.github.io/2017/03/18/hello-world8/</id>
-    <published>2017-03-18T02:51:24.000Z</published>
-    <updated>2017-08-22T07:51:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-    
-    </summary>
-    
-      <category term="Hexo" scheme="http://sthsf.github.io/categories/Hexo/"/>
-    
-    
-      <category term="Hexo" scheme="http://sthsf.github.io/tags/Hexo/"/>
-    
-      <category term="Blog" scheme="http://sthsf.github.io/tags/Blog/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://sthsf.github.io/2017/03/18/hello-world9/"/>
-    <id>http://sthsf.github.io/2017/03/18/hello-world9/</id>
-    <published>2017-03-18T02:51:24.000Z</published>
-    <updated>2017-08-22T07:51:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-    
-    </summary>
-    
-      <category term="Hexo" scheme="http://sthsf.github.io/categories/Hexo/"/>
-    
-    
-      <category term="Hexo" scheme="http://sthsf.github.io/tags/Hexo/"/>
-    
-      <category term="Blog" scheme="http://sthsf.github.io/tags/Blog/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://sthsf.github.io/2017/03/18/hello-world7/"/>
-    <id>http://sthsf.github.io/2017/03/18/hello-world7/</id>
-    <published>2017-03-18T02:51:24.000Z</published>
-    <updated>2017-08-22T07:51:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-    
-    </summary>
-    
-      <category term="Hexo" scheme="http://sthsf.github.io/categories/Hexo/"/>
-    
-    
-      <category term="Hexo" scheme="http://sthsf.github.io/tags/Hexo/"/>
-    
-      <category term="Blog" scheme="http://sthsf.github.io/tags/Blog/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[Hexo] Theme BeanTech</title>
-    <link href="http://sthsf.github.io/2017/03/18/hexo-theme-beantech/"/>
-    <id>http://sthsf.github.io/2017/03/18/hexo-theme-beantech/</id>
-    <published>2017-03-18T02:51:24.000Z</published>
-    <updated>2017-08-22T02:50:18.000Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote>
-<p>Ported Theme of <a href="https://github.com/Huxpro/huxpro.github.io" target="_blank" rel="external">Hux Blog</a>, Thank <a href="https://github.com/Huxpro" target="_blank" rel="external">Huxpro</a> for designing such a flawless theme.</p>
-<p>This BeanTech theme created by <a href="http://beantech.org" target="_blank" rel="external">YuHsuan</a> modified from the original Porter <a href="http://kaijun.rocks/hexo-theme-huxblog/" target="_blank" rel="external">Kaijun</a></p>
-</blockquote>
-<h1 id="Live-Demo"><a href="#Live-Demo" class="headerlink" title="Live Demo"></a><a href="http://beantech.org" target="_blank" rel="external">Live Demo</a></h1><hr>
-<p><img src="http://beantech.org/img/beantech-desktop.png" alt="BeanTech Desktop"></p>
-<h1 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h1><hr>
-<p>I publish the whole project for your convenience, so you can just follow the instruction down below, then you can easily customiz your own blog!</p>
-<p>Let’s begin!!!</p>
-<h2 id="Init"><a href="#Init" class="headerlink" title="Init"></a>Init</h2><hr>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">git <span class="built_in">clone</span> https://github.com/YenYuHsuan/hexo-theme-beantech.git ./hexo-beantech</div><div class="line"><span class="built_in">cd</span> hexo-beantech</div><div class="line">npm install</div></pre></td></tr></table></figure>
-<h2 id="Modify"><a href="#Modify" class="headerlink" title="Modify"></a>Modify</h2><hr>
-<p>Modify <code>_config.yml</code> file with your own info.<br>Especially the section:</p>
-<h3 id="Deployment"><a href="#Deployment" class="headerlink" title="Deployment"></a>Deployment</h3><p>Replace to your own repo!<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">  type:</span> <span class="string">git</span></div><div class="line"><span class="attr">  repo:</span> <span class="attr">https://github.com/&lt;yourAccount&gt;/&lt;repo&gt;</span></div><div class="line"><span class="attr">  branch:</span> <span class="string">&lt;your-branch&gt;</span></div></pre></td></tr></table></figure></p>
-<h3 id="Sidebar-settings"><a href="#Sidebar-settings" class="headerlink" title="Sidebar settings"></a>Sidebar settings</h3><p>Copy your avatar image to <code>&lt;root&gt;/img/</code> and modify the <code>_config.yml</code>:<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="attr">sidebar:</span> <span class="literal">true</span>    <span class="comment"># whether or not using Sidebar.</span></div><div class="line"><span class="attr">sidebar-about-description:</span> <span class="string">"&lt;your description&gt;"</span></div><div class="line"><span class="attr">sidebar-avatar:</span> <span class="string">img/&lt;your</span> <span class="string">avatar</span> <span class="string">path&gt;</span></div></pre></td></tr></table></figure></p>
-<p>and activate your personal widget you like<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="attr">widgets:</span>         <span class="comment"># here are widget you can use, you can comment out</span></div><div class="line"><span class="bullet">-</span> <span class="string">featured-tags</span></div><div class="line"><span class="bullet">-</span> <span class="string">short-about</span></div><div class="line"><span class="bullet">-</span> <span class="string">recent-posts</span></div><div class="line"><span class="bullet">-</span> <span class="string">friends-blog</span></div><div class="line"><span class="bullet">-</span> <span class="string">archive</span></div><div class="line"><span class="bullet">-</span> <span class="string">category</span></div></pre></td></tr></table></figure></p>
-<p>if you want to add sidebar widget, please add at <code>layout/_widget</code>.</p>
-<h3 id="Signature-Setup"><a href="#Signature-Setup" class="headerlink" title="Signature Setup"></a>Signature Setup</h3><p>Copy your signature image to <code>&lt;root&gt;/img/signature</code> and modify the <code>_config.yml</code>:<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="attr">signature:</span> <span class="literal">true</span>   <span class="comment"># show signature</span></div><div class="line"><span class="attr">signature-img:</span> <span class="string">img/signature/&lt;your-signature-ID&gt;</span></div></pre></td></tr></table></figure></p>
-<h3 id="Go-to-top-icon-Setup"><a href="#Go-to-top-icon-Setup" class="headerlink" title="Go to top icon Setup"></a>Go to top icon Setup</h3><p>My icon is using iron man, you can change to your own icon at <code>css/image</code>.</p>
-<h3 id="Post-tag"><a href="#Post-tag" class="headerlink" title="Post tag"></a>Post tag</h3><p>You can decide to show post tags or not.<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attr">home_posts_tag:</span> <span class="literal">true</span></div></pre></td></tr></table></figure></p>
-<p><img src="home_posts_tag-true.png" alt="home_posts_tag-true"><br><figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attr">home_posts_tag:</span> <span class="literal">false</span></div></pre></td></tr></table></figure></p>
-<p><img src="home_posts_tag-false.png" alt="home_posts_tag-false"></p>
-<h3 id="Markdown-render"><a href="#Markdown-render" class="headerlink" title="Markdown render"></a>Markdown render</h3><p>My markdown render engine plugin is <a href="https://github.com/celsomiranda/hexo-renderer-markdown-it" target="_blank" rel="external">hexo-renderer-markdown-it</a>.<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Markdown-it config</span></div><div class="line"><span class="comment">## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki</span></div><div class="line"><span class="attr">markdown:</span></div><div class="line"><span class="attr">  render:</span></div><div class="line"><span class="attr">    html:</span> <span class="literal">true</span></div><div class="line"><span class="attr">    xhtmlOut:</span> <span class="literal">false</span></div><div class="line"><span class="attr">    breaks:</span> <span class="literal">true</span></div><div class="line"><span class="attr">    linkify:</span> <span class="literal">true</span></div><div class="line"><span class="attr">    typographer:</span> <span class="literal">true</span></div><div class="line"><span class="attr">    quotes:</span> <span class="string">'“”‘’'</span></div></pre></td></tr></table></figure></p>
-<p>and if you want to change the header anchor ‘ℬ’, you can go to <code>layout/post.ejs</code> to change it.<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">async</span>(<span class="string">"https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js"</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">        anchors.options = &#123;</div><div class="line">          visible: <span class="string">'hover'</span>,</div><div class="line">          placement: <span class="string">'left'</span>,</div><div class="line">          icon: ℬ <span class="comment">// this is the header anchor "unicode" icon</span></div><div class="line">        &#125;;</div></pre></td></tr></table></figure></p>
-<h2 id="Hexo-Basics"><a href="#Hexo-Basics" class="headerlink" title="Hexo Basics"></a>Hexo Basics</h2><hr>
-<p>Some hexo command:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">hexo new post <span class="string">"&lt;post name&gt;"</span> <span class="comment"># you can change post to another layout if you want</span></div><div class="line">hexo clean &amp;&amp; hexo generate <span class="comment"># generate the static file</span></div><div class="line">hexo server <span class="comment"># run hexo in local environment</span></div><div class="line">hexo deploy <span class="comment"># hexo will push the static files automatically into the specific branch(gh-pages) of your repo!</span></div></pre></td></tr></table></figure></p>
-<h1 id="Have-fun"><a href="#Have-fun" class="headerlink" title="Have fun ^_^"></a>Have fun ^_^</h1><hr>
+    <updated>2017-08-22T13:34:13.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p>最近在学习使用tensorflow构建language model，遇到关于模型重用的问题，我将模型的训练和预测放在同一个文件中时出现的问题,提示lstm_cell kernal已经存在.</p>
+<h1 id="错误提示"><a href="#错误提示" class="headerlink" title="错误提示"></a>错误提示</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div></pre></td><td class="code"><pre><div class="line">48 Traceback (most recent call last): </div><div class="line">49 File &quot;anna_writer.py&quot;, line 274, in &lt;module&gt; </div><div class="line">50 samp = generate_samples(checkpoint, 20000, prime=&quot;The &quot;) </div><div class="line">51 File &quot;anna_writer.py&quot;, line 234, in generate_samples </div><div class="line">52 conf.lstm_size, conf.keep_prob, conf.grad_clip, False) </div><div class="line">53 File &quot;anna_writer.py&quot;, line 74, in __init__ </div><div class="line">54 self.add_lstm_cell() </div><div class="line">55 File &quot;anna_writer.py&quot;, line 110, in add_lstm_cell </div><div class="line">56 initial_state=self.initial_state) </div><div class="line">57 File &quot;/home/tf1.0/local/lib/python2.7/site-packages/tensorflow/python/ops/rnn.py&quot;, line 574, ii n dynamic_rnn </div><div class="line">58 dtype=dtype) </div><div class="line">59 File &quot;/home/tf1.0/local/lib/python2.7/site-packages/tensorflow/python/ops/rnn.py&quot;, line 737, ii n _dynamic_rnn_loop </div><div class="line">60 swap_memory=swap_memory) </div><div class="line">61 File &quot;/home/tf1.0/local/lib/python2.7/site-packages/tensorflow/python/ops/control_flow_ops.py&quot;&quot; , line 2770, in while_loop </div><div class="line">62 result = context.BuildLoop(cond, body, loop_vars, shape_invariants) </div><div class="line">63 File &quot;/home/tf1.0/local/lib/python2.7/site-packages/tensorflow/python/ops/control_flow_ops.py&quot;&quot; , line 2599, in BuildLoop </div><div class="line">64 pred, body, original_loop_vars, loop_vars, shape_invariants) </div><div class="line">65 File &quot;/home/tf1.0/local/lib/python2.7/site-packages/tensorflow/python/ops/control_flow_ops.py&quot;&quot; , line 2549, in _BuildLoop </div><div class="line">66 body_result = body(*packed_vars_for_body) </div><div class="line">67 File &quot;/home/tf1.0/local/lib/python2.7/site-packages/tensorflow/python/ops/rnn.py&quot;, line 722, ii n _time_step </div><div class="line">68 (output, new_state) = call_cell() </div><div class="line">69 File &quot;/home/tf1.0/local/lib/python2.7/site-packages/tensorflow/python/ops/rnn.py&quot;, line 708, ii n &lt;lambda&gt; </div><div class="line">70 call_cell = lambda: cell(input_t, state) </div><div class="line">71 File &quot;/home/tf1.0/local/lib/python2.7/site-packages/tensorflow/python/ops/rnn_cell_impl.py&quot;, ll ine 180, in __call__ </div><div class="line">72 return super(RNNCell, self).__call__(inputs, state) </div><div class="line">73 File &quot;/home/tf1.0/local/lib/python2.7/site-packages/tensorflow/python/layers/base.py&quot;, line 444 1, in __call__ </div><div class="line">74 outputs = self.call(inputs, *args, **kwargs) </div><div class="line">75 File &quot;/home/tf1.0/local/lib/python2.7/site-packages/tensorflow/python/ops/rnn_cell_impl.py&quot;, l ine 916, in call </div><div class="line">76 cur_inp, new_state = cell(cur_inp, cur_state) </div><div class="line">77 File &quot;/home/tf1.0/local/lib/python2.7/site-packages/tensorflow/python/ops/rnn_cell_impl.py&quot;, l ine 752, in __call__ </div><div class="line">78 output, new_state = self._cell(inputs, state, scope) </div><div class="line">79 File &quot;/home/tf1.0/local/lib/python2.7/site-packages/tensorflow/python/ops/rnn_cell_impl.py&quot;, l ine 180, in __call__ </div><div class="line">80 return super(RNNCell, self).__call__(inputs, state) </div><div class="line">81 File &quot;/home/tf1.0/local/lib/python2.7/site-packages/tensorflow/python/layers/base.py&quot;, line 44 1, in __call__ </div><div class="line">82 outputs = self.call(inputs, *args, **kwargs) </div><div class="line">83 File &quot;/home/tf1.0/local/lib/python2.7/site-packages/tensorflow/python/ops/rnn_cell_impl.py&quot;, l ine 383, in call </div><div class="line">84 concat = _linear([inputs, h], 4 * self._num_units, True) </div><div class="line">85 File &quot;/home/tf1.0/local/lib/python2.7/site-packages/tensorflow/python/ops/rnn_cell_impl.py&quot;, l ine 1017, in _linear </div><div class="line">86 initializer=kernel_initializer) </div><div class="line">87 File &quot;/home/tf1.0/local/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py&quot;, line 1065, in get_variable </div><div class="line">88 use_resource=use_resource, custom_getter=custom_getter) </div><div class="line">89 File &quot;/home/tf1.0/local/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py&quot;, line 962, in get_variable </div><div class="line">90 use_resource=use_resource, custom_getter=custom_getter) </div><div class="line">91 File &quot;/home/tf1.0/local/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py&quot;, line 360, in get_variable </div><div class="line">92 validate_shape=validate_shape, use_resource=use_resource) </div><div class="line">93 File &quot;/home/tf1.0/local/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py&quot;, line 1405, in wrapped_custom_getter </div><div class="line">94 *args, **kwargs) </div><div class="line">95 File &quot;/home/tf1.0/local/lib/python2.7/site-packages/tensorflow/python/ops/rnn_cell_impl.py&quot;, l ine 183, in _rnn_get_variable </div><div class="line">96 variable = getter(*args, **kwargs) </div><div class="line">97 File &quot;/home/tf1.0/local/lib/python2.7/site-packages/tensorflow/python/ops/rnn_cell_impl.py&quot;, l ine 183, in _rnn_get_variable </div><div class="line">98 variable = getter(*args, **kwargs) </div><div class="line">99 File &quot;/home/tf1.0/local/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py&quot;, line 352, in _true_getter </div><div class="line">100 use_resource=use_resource) </div><div class="line">101 File &quot;/home/tf1.0/local/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py&quot;, line 664, in _get_single_variable </div><div class="line">102 name, &quot;&quot;.join(traceback.format_list(tb)))) </div><div class="line">103 ValueError: Variable lstm_cell/rnn/multi_rnn_cell/cell_0/basic_lstm_cell/kernel already exists, disallowed. Did you mean to set reuse=True in VarScope? Originally defined at:</div><div class="line">104 105 File &quot;anna_writer.py&quot;, line 110, in add_lstm_cell </div><div class="line">106 initial_state=self.initial_state) </div><div class="line">107 File &quot;anna_writer.py&quot;, line 74, in __init__ </div><div class="line">108 self.add_lstm_cell() </div><div class="line">109 File &quot;anna_writer.py&quot;, line 172, in train 110 conf.grad_clip, is_training=True)</div></pre></td></tr></table></figure>
+<h1 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h1><p>这个问题困扰了我两天，始终找不到解决方案，当我的训练模型和预测模型分开运行时程序没有报错，但是两个程序放在一起运行时就会出现问题，网上搜索的结果大都是关于<a href="https://stackoverflow.com/questions/43957967/tensorflow-v1-1-0-multi-rnn-basiclstmcell-error-reuse-parameter-python-3-5" target="_blank" rel="external">共享权重的问题</a>，错误提示是<figure class="highlight plain"><figcaption><span>Variable hello/rnn/basic_lstm_cell/weights already exists, disallowed. Did you mean to set reuse=True in VarScope?```</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">，这个error跟我的错误还是有一定的区别的。这些问题主要原因在于使用多层lstm_cell或者双向lstm的时候忽略了定义变量的variable_scope，导致lstm_cell的作用域不一样，但是程序加载的时候并不知道，所以当声明的cell不是同一个的时候，需要用</div></pre></td></tr></table></figure></p>
+<p>with tf.variable_scope(name):<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">来定义不同的作用范围就可以了，具体还要根据实际情况。</div><div class="line"></div><div class="line">而我的问题好像网上还没有这样的解释，我仔细看错误的提示，分析我的代码，当train和predict放在一起的时候，会调用两次class language_model：这时候就会出现系统里应该存在两个不同的lstm_cell模型，但是系统无法辨别出来，所以会提示**kernel already exists**，而不是**weights already exists**。</div><div class="line"></div><div class="line">而tensorflow有一个reset_default_graph()函数，我对python多线程不是很清楚，贴下源码，</div><div class="line"></div><div class="line">```python</div><div class="line">def reset_default_graph():</div><div class="line">  &quot;&quot;&quot;Clears the default graph stack and resets the global default graph.</div><div class="line"></div><div class="line">  NOTE: The default graph is a property of the current thread. This</div><div class="line">  function applies only to the current thread.  Calling this function while</div><div class="line">  a `tf.Session` or `tf.InteractiveSession` is active will result in undefined</div><div class="line">  behavior. Using any previously created `tf.Operation` or `tf.Tensor` objects</div><div class="line">  after calling this function will result in undefined behavior.</div><div class="line">  &quot;&quot;&quot;</div></pre></td></tr></table></figure></p>
+<p>然后在我定义的language_model类中添加这个函数之后之前的问题就解决了。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> tensorflow <span class="keyword">as</span> tf</div><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">language_model</span>:</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self, num_classes, batch_size=<span class="number">100</span>, seq_length=<span class="number">50</span>, learning_rate=<span class="number">0.01</span>, num_layers=<span class="number">5</span>, hidden_units=<span class="number">128</span>,</span></span></div><div class="line"><span class="function"><span class="params">                 keep_prob=<span class="number">0.8</span>, grad_clip=<span class="number">5</span>, is_training=True)</span>:</span></div><div class="line">        <span class="comment"># 模型的训练和预测放在同一个文件下时如果没有这个函数会报错。</span></div><div class="line">        tf.reset_default_graph()  </div><div class="line">        self.learning_rate = learning_rate</div><div class="line">        self.num_layers = num_layers</div><div class="line">        self.hidden_units = hidden_units</div><div class="line">        self.is_training = is_training</div><div class="line">        self.keep_prob = keep_prob</div><div class="line">        self.grad_clip = grad_clip</div><div class="line">        self.num_classes = num_classes</div><div class="line"></div><div class="line">        <span class="keyword">if</span> self.is_training:</div><div class="line">            self.batch_size = batch_size</div><div class="line">            self.seq_length = seq_length</div><div class="line">        <span class="keyword">else</span>:</div><div class="line">            self.batch_size = <span class="number">1</span></div><div class="line">            self.seq_length = <span class="number">1</span></div><div class="line"></div><div class="line">        <span class="keyword">with</span> tf.name_scope(<span class="string">'add_input_layer'</span>):</div><div class="line">            self.add_input_layer()</div><div class="line">        <span class="keyword">with</span> tf.variable_scope(<span class="string">'lstm_cell'</span>):</div><div class="line">            self.add_multi_cells()</div><div class="line">        <span class="keyword">with</span> tf.name_scope(<span class="string">'build_output'</span>):</div><div class="line">            self.build_output()</div><div class="line">        <span class="keyword">with</span> tf.name_scope(<span class="string">'cost'</span>):</div><div class="line">            self.compute_cost()</div><div class="line">        <span class="keyword">with</span> tf.name_scope(<span class="string">'train_op'</span>):</div><div class="line">            self.train_op()</div></pre></td></tr></table></figure>
+<p><strong>题外话</strong> ：tensorflow1.2版本之后，定义多层lstm(<code>MultiRNNCell</code>)与原来的版本改变比较大，可以看考<a href="https://www.tensorflow.org/tutorials/recurrent#recurrent-neural-networks" target="_blank" rel="external">PTB tutorials—Stacking multiple LSTMs</a>.</p>
+<p><strong><em>文中涉及到的代码见：<a href="https://github.com/STHSF/DeepNaturalLanguageProcessing/tree/master/language_model/anna" target="_blank" rel="external">github–anna</a></em></strong></p>
+<h1 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h1><p><a href="http://blog.csdn.net/u014283248/article/details/64440268" target="_blank" rel="external">1、tensorflow1.x版本rnn生成cell 报错解决方案</a></p>
+<p><a href="http://www.cnblogs.com/max-hu/p/7101164.html" target="_blank" rel="external">2、ValueError: Attempt to reuse RNNCell</a></p>
+<p><a href="https://stackoverflow.com/questions/43935609/how-to-reuse-weights-in-multirnncell" target="_blank" rel="external">3、How to reuse weights in MultiRNNCell?</a></p>
+<p><a href="https://github.com/tensorflow/tensorflow/issues/8191" target="_blank" rel="external">4、ValueError: Attempt to reuse RNNCell with a different variable scope than its first use.</a></p>
 <!-- Place this tag in your head or just before your close body tag. -->
 <p><script async defer src="https://buttons.github.io/buttons.js"></script><br><!-- Place this tag where you want the button to render. --></p>
 <p>Please <a class="github-button" href="https://github.com/YenYuHsuan/hexo-theme-beantech" data-icon="octicon-star" aria-label="Star YenYuHsuan/hexo-theme-beantech on GitHub" target="_blank" rel="external">Star</a> this Project if you like it! <a class="github-button" href="https://github.com/YenYuHsuan" aria-label="Follow @YenYuHsuan on GitHub" target="_blank" rel="external">Follow</a> would also be appreciated!<br>Peace!</p>
@@ -320,15 +74,14 @@
     
     <summary type="html">
     
-      &lt;blockquote&gt;
-&lt;p&gt;Ported Theme of &lt;a href=&quot;https://github.com/Huxpro/huxpro.github.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hux Blog&lt;/a&gt;, Thank &lt;a h
+      &lt;h1 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h1&gt;&lt;p&gt;最近在学习使用tensorflow构建language model，遇到关于模型重用的问题，我将模型的训练和预测放在同一个文
     
     </summary>
     
     
-      <category term="Hexo" scheme="http://sthsf.github.io/tags/Hexo/"/>
+      <category term="Tensorflow" scheme="http://sthsf.github.io/tags/Tensorflow/"/>
     
-      <category term="Blog" scheme="http://sthsf.github.io/tags/Blog/"/>
+      <category term="ValueError" scheme="http://sthsf.github.io/tags/ValueError/"/>
     
   </entry>
   
