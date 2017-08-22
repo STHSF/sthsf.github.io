@@ -16,13 +16,6 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com//404.html</loc>
-    
-    <lastmod>2017-08-15T18:06:22.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/books/index.html</loc>
     
     <lastmod>2017-08-15T18:06:22.000Z</lastmod>
@@ -45,6 +38,13 @@
   
   <url>
     <loc>http://yoursite.com/tags/index.html</loc>
+    
+    <lastmod>2017-08-15T18:06:22.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com//404.html</loc>
     
     <lastmod>2017-08-15T18:06:22.000Z</lastmod>
     
