@@ -3,15 +3,16 @@
 
 
     
-    
   <url>
     <loc>http://sthsf.github.io/2017/06/18/ValueError:%20kernel%20already%20exists/</loc>
-    <lastmod>2017-08-22T14:12:21.000Z</lastmod>
+    <lastmod>2017-08-22T14:41:53.000Z</lastmod>
     <data>
         <display>
         <title>ValueError: Variable lstm_cell/rnn/multi_rnn_cell/cell_0/basic_lstm_cell/kernel already exists.</title>
         <pubTime>2017-06-18T02:00:00.000Z</pubTime>
         
+        <tag>Deeplearning</tag>
+         
         <tag>Tensorflow</tag>
          
         <tag>ValueError</tag>
@@ -25,6 +26,7 @@
     </data>
     </url>
 
+    
     
   <url>
     <loc>http://sthsf.github.io/2017/03/18/Build%20personal%20blog%20with%20hexo/</loc>
