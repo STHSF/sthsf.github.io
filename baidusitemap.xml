@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://yoursite.com/2017/03/18/hello-world/</loc>
-    <lastmod>2017-08-22T07:48:47.000Z</lastmod>
+    <lastmod>2017-08-22T07:51:47.000Z</lastmod>
     <data>
         <display>
         <title>Hello World</title>
@@ -17,6 +17,9 @@
          
          
            
+             
+              <breadCrumb title="Hexo" url="http://yoursite.com/categories/Hexo/"/>
+          
         </display>
     </data>
     </url>
