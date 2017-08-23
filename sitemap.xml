@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://sthsf.github.io/about/index.html</loc>
+    <loc>http://sthsf.github.io/2017/06/18/ValueError:%20kernel%20already%20exists/</loc>
     
-    <lastmod>2017-08-22T15:14:13.000Z</lastmod>
+    <lastmod>2017-08-23T00:42:40.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://sthsf.github.io/2017/06/18/ValueError:%20kernel%20already%20exists/</loc>
+    <loc>http://sthsf.github.io/about/index.html</loc>
     
-    <lastmod>2017-08-22T14:41:53.000Z</lastmod>
+    <lastmod>2017-08-22T15:14:13.000Z</lastmod>
     
   </url>
   
@@ -23,13 +23,6 @@
   </url>
   
   <url>
-    <loc>http://sthsf.github.io//404.html</loc>
-    
-    <lastmod>2017-08-15T18:06:22.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://sthsf.github.io/books/index.html</loc>
     
     <lastmod>2017-08-15T18:06:22.000Z</lastmod>
@@ -37,7 +30,7 @@
   </url>
   
   <url>
-    <loc>http://sthsf.github.io/categories/index.html</loc>
+    <loc>http://sthsf.github.io/links/index.html</loc>
     
     <lastmod>2017-08-15T18:06:22.000Z</lastmod>
     
@@ -51,14 +44,21 @@
   </url>
   
   <url>
-    <loc>http://sthsf.github.io/tags/index.html</loc>
+    <loc>http://sthsf.github.io/categories/index.html</loc>
     
     <lastmod>2017-08-15T18:06:22.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://sthsf.github.io/links/index.html</loc>
+    <loc>http://sthsf.github.io//404.html</loc>
+    
+    <lastmod>2017-08-15T18:06:22.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://sthsf.github.io/tags/index.html</loc>
     
     <lastmod>2017-08-15T18:06:22.000Z</lastmod>
     
