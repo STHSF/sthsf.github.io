@@ -4,30 +4,8 @@
 
     
   <url>
-    <loc>http://sthsf.github.io/2017/08/24/%E6%9E%81%E5%A4%A7%E4%BC%BC%E7%84%B6%E4%BC%B0%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2017-08-24T02:32:27.000Z</lastmod>
-    <data>
-        <display>
-        <title>极大似然估计学习总结</title>
-        <pubTime>2017-08-24T02:09:46.000Z</pubTime>
-        
-        <tag>统计学习</tag>
-         
-        <tag>概率论</tag>
-         
-         
-           
-             
-              <breadCrumb title="统计学习" url="http://sthsf.github.io/categories/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://sthsf.github.io/2017/06/18/ValueError:%20kernel%20already%20exists/</loc>
-    <lastmod>2017-08-23T00:42:40.000Z</lastmod>
+    <lastmod>2017-08-25T01:14:46.000Z</lastmod>
     <data>
         <display>
         <title>ValueError: Variable lstm_cell/rnn/multi_rnn_cell/cell_0/basic_lstm_cell/kernel already exists.</title>
@@ -43,6 +21,28 @@
            
              
               <breadCrumb title="Tensorlow" url="http://sthsf.github.io/categories/Tensorlow/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://sthsf.github.io/2017/08/24/%E6%9E%81%E5%A4%A7%E4%BC%BC%E7%84%B6%E4%BC%B0%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2017-08-24T02:32:27.000Z</lastmod>
+    <data>
+        <display>
+        <title>极大似然估计学习总结</title>
+        <pubTime>2017-08-24T02:09:46.000Z</pubTime>
+        
+        <tag>统计学习</tag>
+         
+        <tag>概率论</tag>
+         
+         
+           
+             
+              <breadCrumb title="统计学习" url="http://sthsf.github.io/categories/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0/"/>
           
         </display>
     </data>
