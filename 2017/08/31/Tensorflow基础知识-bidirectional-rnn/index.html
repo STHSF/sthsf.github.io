@@ -26,7 +26,7 @@
 <meta property="og:description" content="写在前面最近在做一些自然语言处理demo的时候遇到了双向RNN，里面的bidirectional_dynamic_rnn还是值得理解下的，故记录下自己的学习心得。 双向RNNs双向RNNs模型是RNN的扩展模型，RNN模型在处理序列模型的学习上主要是依靠上文的信息，双向RNNs模型认为模型的输出不仅仅依靠序列前面的元素，后面的元素对输出也有影响。比如说，想要预测序列中的一个缺失值，我们不仅仅要考虑">
 <meta property="og:image" content="http://sthsf.github.io/2017/08/31/Tensorflow基础知识-bidirectional-rnn/RNN-bidirectional.png">
 <meta property="og:image" content="http://sthsf.github.io/2017/08/31/Tensorflow基础知识-bidirectional-rnn/bidirectionl-RNN-unrolling.png">
-<meta property="og:updated_time" content="2017-08-31T06:06:58.000Z">
+<meta property="og:updated_time" content="2017-08-31T06:11:01.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Tensorflow基础知识---bidirectional_rnn">
 <meta name="twitter:description" content="写在前面最近在做一些自然语言处理demo的时候遇到了双向RNN，里面的bidirectional_dynamic_rnn还是值得理解下的，故记录下自己的学习心得。 双向RNNs双向RNNs模型是RNN的扩展模型，RNN模型在处理序列模型的学习上主要是依靠上文的信息，双向RNNs模型认为模型的输出不仅仅依靠序列前面的元素，后面的元素对输出也有影响。比如说，想要预测序列中的一个缺失值，我们不仅仅要考虑">
@@ -392,11 +392,10 @@
         <h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p>最近在做一些自然语言处理demo的时候遇到了双向RNN，里面的bidirectional_dynamic_rnn还是值得理解下的，故记录下自己的学习心得。</p>
 <h1 id="双向RNNs"><a href="#双向RNNs" class="headerlink" title="双向RNNs"></a>双向RNNs</h1><p>双向RNNs模型是RNN的扩展模型，RNN模型在处理序列模型的学习上主要是依靠上文的信息，双向RNNs模型认为模型的输出不仅仅依靠序列前面的元素，后面的元素对输出也有影响。比如说，想要预测序列中的一个缺失值，我们不仅仅要考虑该缺失值前面的元素，而且要考虑他后面的元素。<br>简单点来将两个RNN堆叠在一起，分别从两个方向计算序列的output和state，而最终的输出则根据两个RNNs的隐藏状态计算，如下图所示。</p>
 <p><img src="RNN-bidirectional.png" alt="bidirectional-RNN"></p>
-<center>[Figure 1: A bi-directional RNN model]</center>
+<center>Figure 1: A bi-directional RNN model</center>
 
 <p>双向循环神经网络的基本思想是提出每一个训练序列向前和向后分别是两个循环神经网络，而且这两个都连接着一个输出层，这个结构提供给输出层输入序列中每个点的完整的过去和未来的上下文信息。<br>下图展示的是一个沿着时间展开的双向循环神经网络。六个独特的权值在每一时步被重复的利用，六个权值分别对应：输入到向前和向后隐含层(w1,w3)，隐含层到隐含层自己(w2, w5),向前和向后隐含层到输出层(w4, w6)。<br>值得注意的是：向后和向前隐含层之间没有信息流，这保证了展开图是非循环的。</p>
-<p><img src="bidirectionl-RNN-unrolling.png" alt=""></p>
-<center>[Figure 2: bidirectional RNN model unrolling]</center>
+<center><img src="bidirectionl-RNN-unrolling.png" height="200" width="200"></center><br><center>Figure 2: bidirectional RNN model unrolling</center>
 
 
 
