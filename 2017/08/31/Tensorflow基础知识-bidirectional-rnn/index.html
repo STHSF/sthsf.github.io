@@ -16,15 +16,22 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>Category: Tensorflow | Yu Li</title>
-  <meta property="og:type" content="website">
-<meta property="og:title" content="personal blog">
-<meta property="og:url" content="http://sthsf.github.io/categories/Tensorflow/index.html">
+  <title>Tensorflow基础知识---bidirectional_rnn | Yu Li</title>
+  <meta name="description" content="写在前面最近在做一些自然语言处理demo的时候遇到了双向RNN，里面的bidirectional_dynamic_rnn还是值得理解下的，故记录下自己的学习心得。 双向RNNs双向RNNs模型是RNN的扩展模型，RNN模型在处理序列模型的学习上主要是依靠上文的信息，双向RNNs模型认为模型的输出不仅仅依靠序列前面的元素，后面的元素对输出也有影响。比如说，想要预测序列中的一个缺失值，我们不仅仅要考虑">
+<meta name="keywords" content="Tensorflow,基础知识">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Tensorflow基础知识---bidirectional_rnn">
+<meta property="og:url" content="http://sthsf.github.io/2017/08/31/Tensorflow基础知识-bidirectional-rnn/index.html">
 <meta property="og:site_name" content="personal blog">
+<meta property="og:description" content="写在前面最近在做一些自然语言处理demo的时候遇到了双向RNN，里面的bidirectional_dynamic_rnn还是值得理解下的，故记录下自己的学习心得。 双向RNNs双向RNNs模型是RNN的扩展模型，RNN模型在处理序列模型的学习上主要是依靠上文的信息，双向RNNs模型认为模型的输出不仅仅依靠序列前面的元素，后面的元素对输出也有影响。比如说，想要预测序列中的一个缺失值，我们不仅仅要考虑">
+<meta property="og:image" content="http://sthsf.github.io/2017/08/31/Tensorflow基础知识-bidirectional-rnn/RNN-bidirectional.png">
+<meta property="og:updated_time" content="2017-08-31T03:40:08.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="personal blog">
+<meta name="twitter:title" content="Tensorflow基础知识---bidirectional_rnn">
+<meta name="twitter:description" content="写在前面最近在做一些自然语言处理demo的时候遇到了双向RNN，里面的bidirectional_dynamic_rnn还是值得理解下的，故记录下自己的学习心得。 双向RNNs双向RNNs模型是RNN的扩展模型，RNN模型在处理序列模型的学习上主要是依靠上文的信息，双向RNNs模型认为模型的输出不仅仅依靠序列前面的元素，后面的元素对输出也有影响。比如说，想要预测序列中的一个缺失值，我们不仅仅要考虑">
+<meta name="twitter:image" content="http://sthsf.github.io/2017/08/31/Tensorflow基础知识-bidirectional-rnn/RNN-bidirectional.png">
   <!-- Canonical links -->
-  <link rel="canonical" href="http://sthsf.github.io/categories/Tensorflow/index.html">
+  <link rel="canonical" href="http://sthsf.github.io/2017/08/31/Tensorflow基础知识-bidirectional-rnn/index.html">
   
   
     <link rel="icon" href="/favicon.png" type="image/x-icon">
@@ -338,65 +345,185 @@
 </section>
 
   
-  <section class="main">
-  <article class="content article article-categories article-type-list" itemscope="">
+  
+<section class="main">
+  <div class="content">
+  <article id="post-Tensorflow基础知识-bidirectional-rnn" class="article article-type-post" itemscope itemprop="blogPost">
+    
     <header class="article-header">
-      <h1 itemprop="name" class="hidden-xs">Category: Tensorflow</h1>
-      <p class="hidden-xs">Total 2 articles</p>
-      <nav role="navigation" id="nav-main" class="okayNav">
-        <ul>
-          <li><a href="/categories">All</a></li>
-          
-          <li><a href="/categories/Hexo/">Hexo</a></li>
-          
-          <li><a href="/categories/Tensorflow/">Tensorflow</a></li>
-          
-          <li><a href="/categories/Tensorlow/">Tensorlow</a></li>
-          
-          <li><a href="/categories/统计学习/">统计学习</a></li>
-          
-        </ul>
-      </nav>
+      
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Tensorflow基础知识---bidirectional_rnn
+    </h1>
+  
+
+      
+      <div class="article-meta">
+        <span class="article-date">
+    <i class="fa fa-calendar-check-o"></i>
+	<a href="/2017/08/31/Tensorflow基础知识-bidirectional-rnn/" class="article-date">
+	  <time datetime="2017-08-31T02:17:27.000Z" itemprop="datePublished">2017-08-31</time>
+	</a>
+</span>
+        
+  <span class="article-category">
+    <i class="fa fa-folder"></i>
+    <a class="article-category-link" href="/categories/Tensorflow/">Tensorflow</a>
+  </span>
+
+        
+  <span class="article-tag">
+    <i class="fa fa-tag"></i>
+	<a class="article-tag-link" href="/tags/Tensorflow/">Tensorflow</a>, <a class="article-tag-link" href="/tags/基础知识/">基础知识</a>
+  </span>
+
+
+        
+	<span class="article-read hidden-xs">
+	    <i class="fa fa-eye" aria-hidden="true"></i>
+	    <span id="busuanzi_container_page_pv">
+			阅读<span id="busuanzi_value_page_pv">0</span>次
+		</span>
+	</span>
+
+
+        <span class="post-comment"><i class="fa fa-commenting-o"></i> <a href="/2017/08/31/Tensorflow基础知识-bidirectional-rnn/#comments" class="article-comment-link">Comments</a></span>
+        
+	
+		<span class="post-wordcount hidden-xs">字数统计: 214(字)</span>
+	
+	
+		<span class="post-readcount hidden-xs">阅读时长: 1(分)</span>
+	
+
+      </div>
+      
     </header>
-    <!-- /header -->
-    <div class="article-body">
-      <div class="panel panel-default b-no">
-    <div class="panel-heading" role="tab">
-        <h4 class="panel-title">
-            <a data-toggle="collapse" href="#collapseTensorflow" aria-expanded="true">
-              <i class="fa fa-folder-o text-active"></i><i class="fa fa-folder-open-o text"></i>
-              Tensorflow
-            </a>
-            <small class="text-muted">(Total 2 articles)</small>
-        </h4>
+    <div class="article-entry markdown-body" itemprop="articleBody">
+      
+        <h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p>最近在做一些自然语言处理demo的时候遇到了双向RNN，里面的bidirectional_dynamic_rnn还是值得理解下的，故记录下自己的学习心得。</p>
+<h1 id="双向RNNs"><a href="#双向RNNs" class="headerlink" title="双向RNNs"></a>双向RNNs</h1><p>双向RNNs模型是RNN的扩展模型，RNN模型在处理序列模型的学习上主要是依靠上文的信息，双向RNNs模型认为模型的输出不仅仅依靠序列前面的元素，后面的元素对输出也有影响。比如说，想要预测序列中的一个缺失值，我们不仅仅要考虑该缺失值前面的元素，而且要考虑他后面的元素。<br>简单点来将两个RNN堆叠在一起，分别从两个方向计算序列的output和state，而最终的输出则根据两个RNNs的隐藏状态计算。<br><img src="RNN-bidirectional.png" alt="bidirectional-RNN"><br><a href="http://www.cnblogs.com/ZJUT-jiangnan/p/5222939.html" target="_blank" rel="external">RNN-bidirectional</a></p>
+
+      
     </div>
-    <div id="collapseTensorflow" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTensorflow">
-        <div class="panel-body">
-            <div class="collection">
-              
-                
-<a href="/2017/08/31/Tensorflow基础知识---bidirectional_rnn/" class="collection-item" target="_blank" itemprop="url">
-  <time datetime="2017-08-31T02:17:27.000Z" itemprop="datePublished">2017-08-31</time>
-  <span>&nbsp;&nbsp;&nbsp;</span> Tensorflow基础知识---bidirectional_rnn
-</a>
+    <footer class="article-footer">
+      <blockquote class="mt-2x">
+  <ul class="post-copyright list-unstyled">
+    
+    <li class="post-copyright-link hidden-xs">
+      <strong>本文链接：</strong>
+      <a href="http://sthsf.github.io/2017/08/31/Tensorflow基础知识-bidirectional-rnn/" title="Tensorflow基础知识---bidirectional_rnn" target="_blank" rel="external">http://sthsf.github.io/2017/08/31/Tensorflow基础知识-bidirectional-rnn/</a>
+    </li>
+    
+    <li class="post-copyright-license">
+      <strong>版权声明： </strong> 本博客所有文章除特别声明外，均采用 <a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN协议</a> 许可协议。转载请注明出处！
+    </li>
+  </ul>
+</blockquote>
 
 
-              
-                
-<a href="/2017/08/31/Tensorflow基础知识-bidirectional-rnn/" class="collection-item" target="_blank" itemprop="url">
-  <time datetime="2017-08-31T02:17:27.000Z" itemprop="datePublished">2017-08-31</time>
-  <span>&nbsp;&nbsp;&nbsp;</span> Tensorflow基础知识---bidirectional_rnn
-</a>
-
-
-              
-            </div>
-        </div>
-    </div>
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="https://github.com/sthsf" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="/images/avatar.jpg" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="https://github.com/sthsf" target="_blank"><span class="text-dark">Yu Li</span><small class="ml-1x">Algorithm Developer &amp; Designer</small></a></h3>
+        <div></div>
+      </div>
+    </figure>
+  </div>
 </div>
-    </div>
+
+
+    </footer>
   </article>
-   
+  
+    
+  <div id="comments">
+  	
+       
+    <div id="uyan_frame"></div>
+
+    
+  </div>
+
+
+  
+</div>
+
+  <nav class="bar bar-footer clearfix" data-stick-bottom>
+  <div class="bar-inner">
+  
+  <ul class="pager pull-left">
+    
+    <li class="prev">
+      <a href="/2017/08/31/Tensorflow基础知识---bidirectional_rnn/" title="Tensorflow基础知识---bidirectional_rnn"><i class="fa fa-angle-left" aria-hidden="true"></i>&nbsp;&nbsp;Newer</a>
+    </li>
+    
+    
+    <li class="next">
+      <a href="/2017/08/24/极大似然估计学习总结/" title="极大似然估计学习总结">Older&nbsp;&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+    </li>
+    
+  </ul>
+  
+  
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-fancy btn-donate pop-onhover bg-gradient-warning hidden-xs" data-toggle="modal" data-target="#donateModal"><span>Donate</span></button>
+  
+  
+  <div class="bar-right">
+    <div class="share-component" data-sites="weibo,qq,wechat,facebook,twitter" data-mobile-sites="weibo,qq,qzone"></div>
+  </div>
+  
+  </div>
+</nav>
+  
+<!-- Modal -->
+<div class="modal modal-center modal-xs-full fade" id="donateModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <div class="modal-body">
+        <div class="donate-box">
+          <div class="donate-tit">
+            <p>Thank you for your support, I will continue to work hard!</p>
+          </div>
+          <div class="donate-payimg">
+            <img src="/images/donate/alipayimg.png" alt="Scan Qrcode" title="Scan" />
+          </div>
+          <p class="text-muted mv">Scan this qrcode</p>
+          <div class="donate-payselect">
+            <div class="pay_item checked" data-id="alipay" data-src="/images/donate/alipayimg.png">
+              <div class="radio">
+                <input type="radio" name="payment" id="input-alipay" value="alipay" checked>
+                <label class="pay_logo clickable" for="input-alipay"><img src="/images/donate/alipay.jpg" alt="alipay" /></label>
+              </div>
+            </div>
+            <div class="pay_item" data-id="weipay" data-src="/images/donate/weipayimg.png">
+              <div class="radio">
+                <input type="radio" name="payment" id="input-weipay" value="weipay">
+                <label class="pay_logo clickable" for="input-weipay"><img src="/images/donate/weipay.jpg" alt="weipay" /></label>
+              </div>
+            </div>
+          </div>
+          <div class="text-grey">
+            <p>Open<span id="donate-pay_txt">alipay</span>Scan this qrcode, you can sweep yards reward oh!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 </section>
 
   <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
@@ -434,6 +561,12 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 
 
     
+    
+        
+    
+    <script defer type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=[object Object]"></script>
+
+
     
     
 

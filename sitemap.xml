@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://sthsf.github.io/2017/08/31/Tensorflow%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-bidirectional-rnn/</loc>
+    
+    <lastmod>2017-08-31T03:40:08.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://sthsf.github.io/2017/08/31/Tensorflow%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86---bidirectional_rnn/</loc>
     
     <lastmod>2017-08-31T03:27:25.000Z</lastmod>
@@ -37,7 +44,7 @@
   </url>
   
   <url>
-    <loc>http://sthsf.github.io/tags/index.html</loc>
+    <loc>http://sthsf.github.io/repository/index.html</loc>
     
     <lastmod>2017-08-15T18:06:22.000Z</lastmod>
     
@@ -65,7 +72,7 @@
   </url>
   
   <url>
-    <loc>http://sthsf.github.io/repository/index.html</loc>
+    <loc>http://sthsf.github.io/tags/index.html</loc>
     
     <lastmod>2017-08-15T18:06:22.000Z</lastmod>
     
