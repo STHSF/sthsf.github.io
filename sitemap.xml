@@ -4,14 +4,14 @@
   <url>
     <loc>http://sthsf.github.io/2017/08/31/Tensorflow%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-bidirectional-rnn/</loc>
     
-    <lastmod>2017-08-31T03:40:08.000Z</lastmod>
+    <lastmod>2017-08-31T06:06:58.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://sthsf.github.io/2017/06/18/ValueError:%20kernel%20already%20exists/</loc>
     
-    <lastmod>2017-08-25T01:44:35.000Z</lastmod>
+    <lastmod>2017-08-31T05:40:31.000Z</lastmod>
     
   </url>
   
@@ -44,13 +44,6 @@
   </url>
   
   <url>
-    <loc>http://sthsf.github.io/categories/index.html</loc>
-    
-    <lastmod>2017-08-15T18:06:22.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://sthsf.github.io//404.html</loc>
     
     <lastmod>2017-08-15T18:06:22.000Z</lastmod>
@@ -58,7 +51,7 @@
   </url>
   
   <url>
-    <loc>http://sthsf.github.io/links/index.html</loc>
+    <loc>http://sthsf.github.io/categories/index.html</loc>
     
     <lastmod>2017-08-15T18:06:22.000Z</lastmod>
     
@@ -66,6 +59,13 @@
   
   <url>
     <loc>http://sthsf.github.io/tags/index.html</loc>
+    
+    <lastmod>2017-08-15T18:06:22.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://sthsf.github.io/links/index.html</loc>
     
     <lastmod>2017-08-15T18:06:22.000Z</lastmod>
     
