@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>http://sthsf.github.io/2017/08/31/Tensorflow%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86---bidirectional_rnn/</loc>
+    <lastmod>2017-08-31T03:22:18.000Z</lastmod>
+    <data>
+        <display>
+        <title>Tensorflow基础知识---bidirectional_rnn</title>
+        <pubTime>2017-08-31T02:17:27.000Z</pubTime>
+        
+        <tag>Tensorflow</tag>
+         
+        <tag>基础知识</tag>
+         
+         
+           
+             
+              <breadCrumb title="Tensorflow" url="http://sthsf.github.io/categories/Tensorflow/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://sthsf.github.io/2017/06/18/ValueError:%20kernel%20already%20exists/</loc>
     <lastmod>2017-08-25T01:44:35.000Z</lastmod>
     <data>
@@ -11,9 +33,9 @@
         <title>ValueError: Variable lstm_cell/rnn/multi_rnn_cell/cell_0/basic_lstm_cell/kernel already exists.</title>
         <pubTime>2017-06-18T02:00:00.000Z</pubTime>
         
-        <tag>Deeplearning</tag>
-         
         <tag>Tensorflow</tag>
+         
+        <tag>Deeplearning</tag>
          
         <tag>ValueError</tag>
          

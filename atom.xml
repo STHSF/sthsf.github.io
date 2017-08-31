@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://sthsf.github.io/"/>
-  <updated>2017-08-24T02:32:27.000Z</updated>
+  <updated>2017-08-31T03:22:18.000Z</updated>
   <id>http://sthsf.github.io/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Tensorflow基础知识---bidirectional_rnn</title>
+    <link href="http://sthsf.github.io/2017/08/31/Tensorflow%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86---bidirectional_rnn/"/>
+    <id>http://sthsf.github.io/2017/08/31/Tensorflow基础知识---bidirectional_rnn/</id>
+    <published>2017-08-31T02:17:27.000Z</published>
+    <updated>2017-08-31T03:22:18.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p>最近在做一些自然语言处理demo的时候遇到了双向RNN，里面的bidirectional_dynamic_rnn还是值得理解下的，故记录下自己的学习心得。</p>
+<h1 id="双向RNNs"><a href="#双向RNNs" class="headerlink" title="双向RNNs"></a>双向RNNs</h1><p>双向RNNs模型是RNN的扩展模型，RNN模型在处理序列模型的学习上主要是依靠上文的信息，双向RNNs模型认为模型的输出不仅仅依靠序列前面的元素，后面的元素对输出也有影响。比如说，想要预测序列中的一个缺失值，我们不仅仅要考虑该缺失值前面的元素，而且要考虑他后面的元素。<br>简单点来将两个RNN堆叠在一起，分别从两个方向计算序列的output和state，而最终的输出则根据两个RNNs的隐藏状态计算。<br><img src="./Tensorflow基础知识---bidirectional_rnn/RNN-bidirectional.png" alt="bidirectional-RNN"><br><a href="http://www.cnblogs.com/ZJUT-jiangnan/p/5222939.html" target="_blank" rel="external">RNN-bidirectional</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h1&gt;&lt;p&gt;最近在做一些自然语言处理demo的时候遇到了双向RNN，里面的bidirectional_dynamic_rnn还是值得理解
+    
+    </summary>
+    
+      <category term="Tensorflow" scheme="http://sthsf.github.io/categories/Tensorflow/"/>
+    
+    
+      <category term="Tensorflow" scheme="http://sthsf.github.io/tags/Tensorflow/"/>
+    
+      <category term="基础知识" scheme="http://sthsf.github.io/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    
+  </entry>
   
   <entry>
     <title>极大似然估计学习总结</title>
@@ -78,9 +104,9 @@
       <category term="Tensorlow" scheme="http://sthsf.github.io/categories/Tensorlow/"/>
     
     
-      <category term="Deeplearning" scheme="http://sthsf.github.io/tags/Deeplearning/"/>
-    
       <category term="Tensorflow" scheme="http://sthsf.github.io/tags/Tensorflow/"/>
+    
+      <category term="Deeplearning" scheme="http://sthsf.github.io/tags/Deeplearning/"/>
     
       <category term="ValueError" scheme="http://sthsf.github.io/tags/ValueError/"/>
     
