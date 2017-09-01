@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://sthsf.github.io/"/>
-  <updated>2017-09-01T02:57:28.000Z</updated>
+  <updated>2017-09-01T03:03:23.000Z</updated>
   <id>http://sthsf.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://sthsf.github.io/2017/08/31/Tensorflow%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-bidirectional-rnn/"/>
     <id>http://sthsf.github.io/2017/08/31/Tensorflow基础知识-bidirectional-rnn/</id>
     <published>2017-08-31T02:17:27.000Z</published>
-    <updated>2017-09-01T02:57:28.000Z</updated>
+    <updated>2017-09-01T03:03:23.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p>最近在做一些自然语言处理demo的时候遇到了双向RNN，里面的bidirectional_dynamic_rnn还是值得理解下的，故记录下自己的学习心得。</p>
 <h1 id="双向RNNs"><a href="#双向RNNs" class="headerlink" title="双向RNNs"></a>双向RNNs</h1><p>双向RNNs模型是RNN的扩展模型，RNN模型在处理序列模型的学习上主要是依靠上文的信息，双向RNNs模型认为模型的输出不仅仅依靠序列前面的元素，后面的元素对输出也有影响。比如说，想要预测序列中的一个缺失值，我们不仅仅要考虑该缺失值前面的元素，而且要考虑他后面的元素。<br>简单点来将两个RNN堆叠在一起，分别从两个方向计算序列的output和state，而最终的输出则根据两个RNNs的隐藏状态计算，如下图所示。</p>
@@ -28,7 +28,7 @@
 <center>Figure 1: A bidirectional RNN model</center>
 
 <p>在每一个时间节点$(x_t)$，这个网络有两层神经元，一层从左向右传播，另一层从右向左传播。为了保证任何时刻t都有两层隐层，这个网络需要消耗两倍的存储量来存储权重和偏置等参数。最终的分类结果是由两层RNN隐层组合来产生最终的结果。<br>公式1和2表示双向RNN隐层的数学含义。在这两个关系中唯一不同点是循环的方向不一样。公式3展示了通过总结过去和未来词的表示，使用类别的关系来预测下一个词预测。 </p>
-<center><img src="compure_formula.png" height="300" width="500"></center>
+<center><img src="compute_formula.png" height="300" width="500"></center>
 
 <p>双向循环神经网络的基本思想是提出每一个训练序列向前和向后分别是两个循环神经网络，而且这两个都连接着一个输出层，这个结构提供给输出层输入序列中每个点的完整的过去和未来的上下文信息。<br>下图展示的是一个沿着时间展开的双向循环神经网络。六个独特的权值在每一时步被重复的利用，六个权值分别对应：输入到向前和向后隐含层(w1,w3)，隐含层到隐含层自己(w2, w5),向前和向后隐含层到输出层(w4, w6)。<br>值得注意的是：向后和向前隐含层之间没有信息流，这保证了展开图是非循环的。</p>
 <center><img src="bidirectionl-RNN-unrolling.png" height="300" width="500"></center>
