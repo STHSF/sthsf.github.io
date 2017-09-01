@@ -28,8 +28,8 @@
 <meta property="og:image" content="http://sthsf.github.io/2017/08/31/Tensorflow基础知识-bidirectional-rnn/compute_formula.png">
 <meta property="og:image" content="http://sthsf.github.io/2017/08/31/Tensorflow基础知识-bidirectional-rnn/bidirectionl-RNN-unrolling.png">
 <meta property="og:image" content="http://sthsf.github.io/2017/08/31/Tensorflow基础知识-bidirectional-rnn/multi_bidirectionl_rnns.png">
-<meta property="og:image" content="http://sthsf.github.io/2017/08/31/Tensorflow基础知识-bidirectional-rnn/compute_formula.png">
-<meta property="og:updated_time" content="2017-09-01T03:33:01.000Z">
+<meta property="og:image" content="http://sthsf.github.io/2017/08/31/Tensorflow基础知识-bidirectional-rnn/compute_formula2.png">
+<meta property="og:updated_time" content="2017-09-01T03:34:08.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Tensorflow基础知识---Bidirectional_RNN">
 <meta name="twitter:description" content="写在前面最近在做一些自然语言处理demo的时候遇到了双向RNN，里面的bidirectional_dynamic_rnn还是值得理解下的，故记录下自己的学习心得。 双向RNNs双向RNNs模型是RNN的扩展模型，RNN模型在处理序列模型的学习上主要是依靠上文的信息，双向RNNs模型认为模型的输出不仅仅依靠序列前面的元素，后面的元素对输出也有影响。比如说，想要预测序列中的一个缺失值，我们不仅仅要考虑">
@@ -178,7 +178,7 @@
         
         
         
-        <li class="menu-item menu-item-books">
+        <li class="menu-item menu-item-books active">
           <a href="/books">
             
             <i class="fa fa-fw fa-leanpub"></i>
@@ -431,8 +431,8 @@
 <center><img src="multi_bidirectionl_rnns.png" height="300" width="500"></center>
 <center>Figure 2: Multi-Bidirectional RNN model</center>
 
-<p>为了构建一个L层的RNN，上述的关系将会参照公式4和公式5所修改，其中每一个中间神经元（第i层）的输入是RNN网络中同样的t时刻第i-1层的输出。其中输出，在每一个时刻值为通过所有隐层的输入参数传播的结果（如公式22所示）。</p>
-<center><img src="compute_formula.png" height="300" width="400"></center>
+<p>为了构建一个L层的RNN，上述的关系将会参照公式4和公式5所修改，其中每一个中间神经元（第i层）的输入是RNN网络中同样的t时刻第i-1层的输出。其中输出，在每一个时刻值为通过所有隐层的输入参数传播的结果（如公式6所示）。</p>
+<center><img src="compute_formula2.png" height="300" width="400"></center>
 
       
     </div>
