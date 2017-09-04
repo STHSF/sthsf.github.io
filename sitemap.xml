@@ -4,7 +4,7 @@
   <url>
     <loc>http://sthsf.github.io/2017/03/18/Build%20personal%20blog%20with%20hexo/</loc>
     
-    <lastmod>2017-09-04T01:45:11.000Z</lastmod>
+    <lastmod>2017-09-04T01:50:34.000Z</lastmod>
     
   </url>
   
@@ -51,20 +51,6 @@
   </url>
   
   <url>
-    <loc>http://sthsf.github.io/categories/index.html</loc>
-    
-    <lastmod>2017-08-15T18:06:22.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://sthsf.github.io/repository/index.html</loc>
-    
-    <lastmod>2017-08-15T18:06:22.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://sthsf.github.io//404.html</loc>
     
     <lastmod>2017-08-15T18:06:22.000Z</lastmod>
@@ -72,7 +58,21 @@
   </url>
   
   <url>
+    <loc>http://sthsf.github.io/categories/index.html</loc>
+    
+    <lastmod>2017-08-15T18:06:22.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://sthsf.github.io/links/index.html</loc>
+    
+    <lastmod>2017-08-15T18:06:22.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://sthsf.github.io/repository/index.html</loc>
     
     <lastmod>2017-08-15T18:06:22.000Z</lastmod>
     
