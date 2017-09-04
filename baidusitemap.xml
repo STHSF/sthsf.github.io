@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>http://sthsf.github.io/2017/03/18/Build%20personal%20blog%20with%20hexo/</loc>
+    <lastmod>2017-09-04T01:42:28.000Z</lastmod>
+    <data>
+        <display>
+        <title>Build personal blog with hexo</title>
+        <pubTime>2017-03-18T02:51:24.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+        <tag>Blog</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo" url="http://sthsf.github.io/categories/Hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://sthsf.github.io/2017/09/04/Tensorflow%E4%B8%ADdynamic-rnn%E5%92%8Crow-rnn%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
     <lastmod>2017-09-04T01:36:52.000Z</lastmod>
     <data>
@@ -88,28 +110,6 @@
            
              
               <breadCrumb title="统计学习" url="http://sthsf.github.io/categories/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://sthsf.github.io/2017/03/18/Build%20personal%20blog%20with%20hexo/</loc>
-    <lastmod>2017-08-22T13:38:51.000Z</lastmod>
-    <data>
-        <display>
-        <title>Build personal blog with hexo</title>
-        <pubTime>2017-03-18T02:51:24.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-        <tag>Blog</tag>
-         
-         
-           
-             
-              <breadCrumb title="Hexo" url="http://sthsf.github.io/categories/Hexo/"/>
           
         </display>
     </data>

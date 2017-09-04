@@ -185,7 +185,7 @@
     <link href="http://sthsf.github.io/2017/03/18/Build%20personal%20blog%20with%20hexo/"/>
     <id>http://sthsf.github.io/2017/03/18/Build personal blog with hexo/</id>
     <published>2017-03-18T02:51:24.000Z</published>
-    <updated>2017-08-22T13:38:51.000Z</updated>
+    <updated>2017-09-04T01:42:28.000Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
@@ -196,6 +196,12 @@
 <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+<h2 id="Hexo-安装提交过程中错误以及解决方法"><a href="#Hexo-安装提交过程中错误以及解决方法" class="headerlink" title="Hexo 安装提交过程中错误以及解决方法"></a>Hexo 安装提交过程中错误以及解决方法</h2><ul>
+<li>错误提示：<figure class="highlight fortran"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">ERROR Process failed: _posts/Tensorflow中dynamic-rnn和row-rnn的区别.md</div><div class="line">YAMLException: can not read a block mapping <span class="built_in">entry</span>; a multiline key may not be an <span class="keyword">implicit</span> key at line <span class="number">9</span>, column <span class="number">1</span>:</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>错误原因：原因是我在makrdown的site那块添加categories的时候，后面的冒号使用的是中文状态下的输入。<br>解决方法：<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="meta">---</span></div><div class="line"><span class="attr">title:</span> <span class="string">Tensorflow中dynamic_rnn和row_rnn的区别</span></div><div class="line"><span class="attr">date:</span> <span class="number">2017</span><span class="bullet">-09</span><span class="bullet">-04</span> <span class="number">08</span><span class="string">:58:38</span></div><div class="line"><span class="attr">catalog:</span> <span class="literal">true</span></div><div class="line"><span class="attr">tags:</span></div><div class="line"><span class="bullet">-</span> <span class="string">Tensorflow</span></div><div class="line"><span class="bullet">-</span> <span class="string">Tensorflow基础知识</span></div><div class="line"><span class="attr">categories:</span></div><div class="line"><span class="bullet">-</span> <span class="string">Tensorflow基础知识</span></div><div class="line"><span class="meta">---</span></div></pre></td></tr></table></figure></p>
+<p><strong>注意:注意中英文标点符号的问题，还有就是拼写错误，有的时候不注意很容易写错。</strong></p>
 ]]></content>
     
     <summary type="html">
