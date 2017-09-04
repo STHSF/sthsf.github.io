@@ -180,4 +180,34 @@
     
   </entry>
   
+  <entry>
+    <title>Errors when buildding blog with hexo</title>
+    <link href="http://sthsf.github.io/2017/03/18/Build%20personal%20blog%20with%20hexo/"/>
+    <id>http://sthsf.github.io/2017/03/18/Build personal blog with hexo/</id>
+    <published>2017-03-18T02:51:24.000Z</published>
+    <updated>2017-09-04T01:45:11.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Hexo-安装提交过程中错误以及解决方法"><a href="#Hexo-安装提交过程中错误以及解决方法" class="headerlink" title="Hexo 安装提交过程中错误以及解决方法"></a>Hexo 安装提交过程中错误以及解决方法</h2><ul>
+<li>错误提示：<figure class="highlight fortran"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">ERROR Process failed: _posts/Tensorflow中dynamic-rnn和row-rnn的区别.md</div><div class="line">YAMLException: can not read a block mapping <span class="built_in">entry</span>; a multiline key may not be an <span class="keyword">implicit</span> key at line <span class="number">9</span>, column <span class="number">1</span>:</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>错误原因：原因是我在makrdown的site那块添加categories的时候，后面的冒号使用的是中文状态下的输入。<br>解决方法：<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="meta">---</span></div><div class="line"><span class="attr">title:</span> <span class="string">Tensorflow中dynamic_rnn和row_rnn的区别</span></div><div class="line"><span class="attr">date:</span> <span class="number">2017</span><span class="bullet">-09</span><span class="bullet">-04</span> <span class="number">08</span><span class="string">:58:38</span></div><div class="line"><span class="attr">catalog:</span> <span class="literal">true</span></div><div class="line"><span class="attr">tags:</span></div><div class="line"><span class="bullet">-</span> <span class="string">Tensorflow</span></div><div class="line"><span class="bullet">-</span> <span class="string">Tensorflow基础知识</span></div><div class="line"><span class="attr">categories:</span></div><div class="line"><span class="bullet">-</span> <span class="string">Tensorflow基础知识</span></div><div class="line"><span class="meta">---</span></div></pre></td></tr></table></figure></p>
+<p><strong>注意:注意中英文标点符号的问题，还有就是拼写错误，冒号后面的空格等等格式错误，有的时候不注意很容易写错。</strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Hexo-安装提交过程中错误以及解决方法&quot;&gt;&lt;a href=&quot;#Hexo-安装提交过程中错误以及解决方法&quot; class=&quot;headerlink&quot; title=&quot;Hexo 安装提交过程中错误以及解决方法&quot;&gt;&lt;/a&gt;Hexo 安装提交过程中错误以及解决方法&lt;/h2&gt;&lt;
+    
+    </summary>
+    
+      <category term="Hexo" scheme="http://sthsf.github.io/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="http://sthsf.github.io/tags/Hexo/"/>
+    
+      <category term="Blog" scheme="http://sthsf.github.io/tags/Blog/"/>
+    
+  </entry>
+  
 </feed>
