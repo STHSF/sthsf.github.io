@@ -44,13 +44,6 @@
   </url>
   
   <url>
-    <loc>http://sthsf.github.io/repository/index.html</loc>
-    
-    <lastmod>2017-08-15T18:06:22.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://sthsf.github.io//404.html</loc>
     
     <lastmod>2017-08-15T18:06:22.000Z</lastmod>
@@ -58,14 +51,7 @@
   </url>
   
   <url>
-    <loc>http://sthsf.github.io/categories/index.html</loc>
-    
-    <lastmod>2017-08-15T18:06:22.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://sthsf.github.io/tags/index.html</loc>
+    <loc>http://sthsf.github.io/books/index.html</loc>
     
     <lastmod>2017-08-15T18:06:22.000Z</lastmod>
     
@@ -79,7 +65,21 @@
   </url>
   
   <url>
-    <loc>http://sthsf.github.io/books/index.html</loc>
+    <loc>http://sthsf.github.io/categories/index.html</loc>
+    
+    <lastmod>2017-08-15T18:06:22.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://sthsf.github.io/repository/index.html</loc>
+    
+    <lastmod>2017-08-15T18:06:22.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://sthsf.github.io/tags/index.html</loc>
     
     <lastmod>2017-08-15T18:06:22.000Z</lastmod>
     
