@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://sthsf.github.io/2017/08/31/Tensorflow%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-bidirectional-rnn/</loc>
-    <lastmod>2017-09-01T03:38:52.000Z</lastmod>
+    <lastmod>2017-09-04T00:46:01.000Z</lastmod>
     <data>
         <display>
         <title>Tensorflow基础知识---Bidirectional_RNN</title>
@@ -13,12 +13,12 @@
         
         <tag>Tensorflow</tag>
          
-        <tag>基础知识</tag>
+        <tag>Tensorflow基础知识</tag>
          
          
            
              
-              <breadCrumb title="Tensorflow" url="http://sthsf.github.io/categories/Tensorflow/"/>
+              <breadCrumb title="Tensorflow基础知识" url="http://sthsf.github.io/categories/Tensorflow%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
           
         </display>
     </data>
