@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://sthsf.github.io/"/>
-  <updated>2017-09-04T01:06:55.000Z</updated>
+  <updated>2017-09-04T01:36:52.000Z</updated>
   <id>http://sthsf.github.io/</id>
   
   <author>
@@ -14,6 +14,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Tensorflow中dynamic_rnn和row_rnn的区别</title>
+    <link href="http://sthsf.github.io/2017/09/04/Tensorflow%E4%B8%ADdynamic-rnn%E5%92%8Crow-rnn%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
+    <id>http://sthsf.github.io/2017/09/04/Tensorflow中dynamic-rnn和row-rnn的区别/</id>
+    <published>2017-09-04T00:58:38.000Z</published>
+    <updated>2017-09-04T01:36:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="xie"><a href="#xie" class="headerlink" title="xie"></a>xie</h1><h1 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h1><p><a href="https://www.zhihu.com/question/52200883" target="_blank" rel="external">tensor flow dynamic_rnn 与rnn有啥区别？</a><br><a href="https://www.zhihu.com/question/61311860" target="_blank" rel="external">有大神能详细讲讲tensorflow中的raw_rnn这个函数么？</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;xie&quot;&gt;&lt;a href=&quot;#xie&quot; class=&quot;headerlink&quot; title=&quot;xie&quot;&gt;&lt;/a&gt;xie&lt;/h1&gt;&lt;h1 id=&quot;参考文献&quot;&gt;&lt;a href=&quot;#参考文献&quot; class=&quot;headerlink&quot; title=&quot;参考文献&quot;&gt;&lt;/a&gt;参考文
+    
+    </summary>
+    
+      <category term="Tensorflow基础知识" scheme="http://sthsf.github.io/categories/Tensorflow%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    
+    
+      <category term="Tensorflow" scheme="http://sthsf.github.io/tags/Tensorflow/"/>
+    
+      <category term="Tensorflow基础知识" scheme="http://sthsf.github.io/tags/Tensorflow%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    
+  </entry>
   
   <entry>
     <title>Tensorflow基础知识---Bidirectional_RNN</title>
