@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>http://sthsf.github.io/2017/08/31/Tensorflow%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-bidirectional-rnn/</loc>
+    <lastmod>2017-09-06T03:29:58.000Z</lastmod>
+    <data>
+        <display>
+        <title>Tensorflow基础知识---Bidirectional_RNN</title>
+        <pubTime>2017-08-31T02:17:27.000Z</pubTime>
+        
+        <tag>Tensorflow</tag>
+         
+        <tag>Tensorflow基础知识</tag>
+         
+         
+           
+             
+              <breadCrumb title="Tensorflow基础知识" url="http://sthsf.github.io/categories/Tensorflow%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://sthsf.github.io/2017/03/18/Errors%20when%20buildding%20blog%20with%20hexo/</loc>
     <lastmod>2017-09-04T02:33:52.000Z</lastmod>
     <data>
@@ -47,28 +69,6 @@
     </url>
 
     
-    
-  <url>
-    <loc>http://sthsf.github.io/2017/08/31/Tensorflow%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-bidirectional-rnn/</loc>
-    <lastmod>2017-09-04T01:06:55.000Z</lastmod>
-    <data>
-        <display>
-        <title>Tensorflow基础知识---Bidirectional_RNN</title>
-        <pubTime>2017-08-31T02:17:27.000Z</pubTime>
-        
-        <tag>Tensorflow</tag>
-         
-        <tag>Tensorflow基础知识</tag>
-         
-         
-           
-             
-              <breadCrumb title="Tensorflow基础知识" url="http://sthsf.github.io/categories/Tensorflow%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
   <url>
     <loc>http://sthsf.github.io/2017/06/18/ValueError:%20kernel%20already%20exists/</loc>
