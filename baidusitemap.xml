@@ -4,23 +4,8 @@
 
     
   <url>
-    <loc>http://sthsf.github.io/2017/09/06/hello/</loc>
-    <lastmod>2017-09-06T03:48:07.000Z</lastmod>
-    <data>
-        <display>
-        <title>hello</title>
-        <pubTime>2017-09-06T03:42:29.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://sthsf.github.io/2017/08/31/Tensorflow%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-bidirectional-rnn/</loc>
-    <lastmod>2017-09-06T03:29:58.000Z</lastmod>
+    <lastmod>2017-09-07T01:37:00.000Z</lastmod>
     <data>
         <display>
         <title>Tensorflow基础知识---Bidirectional_RNN</title>
@@ -35,6 +20,21 @@
              
               <breadCrumb title="Tensorflow基础知识" url="http://sthsf.github.io/categories/Tensorflow%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://sthsf.github.io/2017/09/06/hello/</loc>
+    <lastmod>2017-09-06T03:48:07.000Z</lastmod>
+    <data>
+        <display>
+        <title>hello</title>
+        <pubTime>2017-09-06T03:42:29.000Z</pubTime>
+        
+         
+           
         </display>
     </data>
     </url>

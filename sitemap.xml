@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://sthsf.github.io/2017/09/06/hello/</loc>
+    <loc>http://sthsf.github.io/2017/08/31/Tensorflow%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-bidirectional-rnn/</loc>
     
-    <lastmod>2017-09-06T03:48:07.000Z</lastmod>
+    <lastmod>2017-09-07T01:37:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://sthsf.github.io/2017/08/31/Tensorflow%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-bidirectional-rnn/</loc>
+    <loc>http://sthsf.github.io/2017/09/06/hello/</loc>
     
-    <lastmod>2017-09-06T03:29:58.000Z</lastmod>
+    <lastmod>2017-09-06T03:48:07.000Z</lastmod>
     
   </url>
   
@@ -65,13 +65,6 @@
   </url>
   
   <url>
-    <loc>http://sthsf.github.io/categories/index.html</loc>
-    
-    <lastmod>2017-08-15T18:06:22.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://sthsf.github.io/links/index.html</loc>
     
     <lastmod>2017-08-15T18:06:22.000Z</lastmod>
@@ -80,6 +73,13 @@
   
   <url>
     <loc>http://sthsf.github.io/tags/index.html</loc>
+    
+    <lastmod>2017-08-15T18:06:22.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://sthsf.github.io/categories/index.html</loc>
     
     <lastmod>2017-08-15T18:06:22.000Z</lastmod>
     
