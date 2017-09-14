@@ -5,10 +5,10 @@
     
   <url>
     <loc>http://sthsf.github.io/2017/09/14/Tensorflow%E4%B8%AD%E6%98%93%E6%B7%B7%E6%B7%86%E7%9A%84%E5%87%BD%E6%95%B0/</loc>
-    <lastmod>2017-09-14T03:33:06.000Z</lastmod>
+    <lastmod>2017-09-14T09:21:24.000Z</lastmod>
     <data>
         <display>
-        <title>Tensorflow中易混淆的函数</title>
+        <title>Tensorflow中的共享变量机制</title>
         <pubTime>2017-09-14T02:14:56.000Z</pubTime>
         
         <tag>Tensorflow</tag>
