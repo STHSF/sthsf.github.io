@@ -1,168 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-
-    
   <url>
     <loc>http://sthsf.github.io/2017/08/24/test/</loc>
-    <lastmod>2018-02-06T02:03:33.141Z</lastmod>
-    <data>
-        <display>
-        <title>极大似然估计学习总结</title>
-        <pubTime>2017-08-24T02:09:46.000Z</pubTime>
-        
-        <tag>统计学习</tag>
-         
-        <tag>概率论</tag>
-         
-         
-           
-             
-              <breadCrumb title="统计学习" url="http://sthsf.github.io/categories/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-    
-  <url>
+    <lastmod>2018-02-06</lastmod>
+  </url>  <url>
     <loc>http://sthsf.github.io/2017/09/14/Tensorflow%E4%B8%AD%E6%98%93%E6%B7%B7%E6%B7%86%E7%9A%84%E5%87%BD%E6%95%B0/</loc>
-    <lastmod>2017-09-15T02:19:19.000Z</lastmod>
-    <data>
-        <display>
-        <title>Tensorflow中的共享变量机制</title>
-        <pubTime>2017-09-14T02:14:56.000Z</pubTime>
-        
-        <tag>Tensorflow</tag>
-         
-        <tag>Tensorflow基础知识</tag>
-         
-         
-           
-             
-              <breadCrumb title="Tensorflow基础知识" url="http://sthsf.github.io/categories/Tensorflow%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2017-09-15</lastmod>
+  </url>  <url>
     <loc>http://sthsf.github.io/2017/08/31/Tensorflow%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-bidirectional-rnn/</loc>
-    <lastmod>2017-09-14T02:22:59.000Z</lastmod>
-    <data>
-        <display>
-        <title>Tensorflow基础知识---Bidirectional_RNN</title>
-        <pubTime>2017-08-31T02:17:27.000Z</pubTime>
-        
-        <tag>Tensorflow</tag>
-         
-        <tag>Tensorflow基础知识</tag>
-         
-         
-           
-             
-              <breadCrumb title="Tensorflow基础知识" url="http://sthsf.github.io/categories/Tensorflow%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2017-09-14</lastmod>
+  </url>  <url>
     <loc>http://sthsf.github.io/2017/09/04/Tensorflow%E4%B8%ADdynamic-rnn%E5%92%8Crow-rnn%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
-    <lastmod>2017-09-14T01:28:17.000Z</lastmod>
-    <data>
-        <display>
-        <title>Tensorflow中dynamic_rnn和row_rnn的区别</title>
-        <pubTime>2017-09-04T00:58:38.000Z</pubTime>
-        
-        <tag>Tensorflow</tag>
-         
-        <tag>Tensorflow基础知识</tag>
-         
-         
-           
-             
-              <breadCrumb title="Tensorflow基础知识" url="http://sthsf.github.io/categories/Tensorflow%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2017-09-14</lastmod>
+  </url>  <url>
     <loc>http://sthsf.github.io/2017/03/18/Errors%20when%20buildding%20blog%20with%20hexo/</loc>
-    <lastmod>2017-09-04T02:33:52.000Z</lastmod>
-    <data>
-        <display>
-        <title>Errors when buildding blog with hexo</title>
-        <pubTime>2017-03-18T02:51:24.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-        <tag>Blog</tag>
-         
-         
-           
-             
-              <breadCrumb title="Hexo" url="http://sthsf.github.io/categories/Hexo/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2017-09-04</lastmod>
+  </url>  <url>
     <loc>http://sthsf.github.io/2017/06/18/ValueError:%20kernel%20already%20exists/</loc>
-    <lastmod>2017-08-31T05:40:31.000Z</lastmod>
-    <data>
-        <display>
-        <title>ValueError: Variable lstm_cell/rnn/multi_rnn_cell/cell_0/basic_lstm_cell/kernel already exists.</title>
-        <pubTime>2017-06-18T02:00:00.000Z</pubTime>
-        
-        <tag>Tensorflow</tag>
-         
-        <tag>Deeplearning</tag>
-         
-        <tag>ValueError</tag>
-         
-         
-           
-             
-              <breadCrumb title="Tensorflow" url="http://sthsf.github.io/categories/Tensorflow/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2017-08-31</lastmod>
+  </url>  <url>
     <loc>http://sthsf.github.io/2017/08/24/%E6%9E%81%E5%A4%A7%E4%BC%BC%E7%84%B6%E4%BC%B0%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2017-08-24T02:32:27.000Z</lastmod>
-    <data>
-        <display>
-        <title>极大似然估计学习总结</title>
-        <pubTime>2017-08-24T02:09:46.000Z</pubTime>
-        
-        <tag>统计学习</tag>
-         
-        <tag>概率论</tag>
-         
-         
-           
-             
-              <breadCrumb title="统计学习" url="http://sthsf.github.io/categories/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-    
-    
-    
-    
-    
+    <lastmod>2017-08-24</lastmod>
+  </url>
 </urlset>
