@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://sthsf.github.io/2017/08/24/%E6%9E%81%E5%A4%A7%E4%BC%BC%E7%84%B6%E4%BC%B0%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2019-03-14</lastmod>
+  </url>  <url>
     <loc>http://sthsf.github.io/2017/08/24/test/</loc>
     <lastmod>2018-02-06</lastmod>
   </url>  <url>
@@ -18,8 +21,5 @@
   </url>  <url>
     <loc>http://sthsf.github.io/2017/06/18/ValueError:%20kernel%20already%20exists/</loc>
     <lastmod>2017-08-31</lastmod>
-  </url>  <url>
-    <loc>http://sthsf.github.io/2017/08/24/%E6%9E%81%E5%A4%A7%E4%BC%BC%E7%84%B6%E4%BC%B0%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2017-08-24</lastmod>
   </url>
 </urlset>
