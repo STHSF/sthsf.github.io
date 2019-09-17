@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://sthsf.github.io/2017/09/14/Tensorflow%E4%B8%AD%E6%98%93%E6%B7%B7%E6%B7%86%E7%9A%84%E5%87%BD%E6%95%B0/Tensorflow%E4%B8%AD%E6%98%93%E6%B7%B7%E6%B7%86%E7%9A%84%E5%87%BD%E6%95%B0/</loc>
+    <loc>http://sthsf.github.io/2017/09/14/Tensorflow%E4%B8%AD%E6%98%93%E6%B7%B7%E6%B7%86%E7%9A%84%E5%87%BD%E6%95%B0/</loc>
     
-    <lastmod>2019-09-17T01:23:45.119Z</lastmod>
+    <lastmod>2019-09-17T01:25:11.701Z</lastmod>
     
   </url>
   
@@ -72,7 +72,7 @@
   </url>
   
   <url>
-    <loc>http://sthsf.github.io/tags/index.html</loc>
+    <loc>http://sthsf.github.io/books/index.html</loc>
     
     <lastmod>2017-08-15T18:06:22.000Z</lastmod>
     
@@ -80,13 +80,6 @@
   
   <url>
     <loc>http://sthsf.github.io/categories/index.html</loc>
-    
-    <lastmod>2017-08-15T18:06:22.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://sthsf.github.io/books/index.html</loc>
     
     <lastmod>2017-08-15T18:06:22.000Z</lastmod>
     
@@ -101,6 +94,13 @@
   
   <url>
     <loc>http://sthsf.github.io/links/index.html</loc>
+    
+    <lastmod>2017-08-15T18:06:22.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://sthsf.github.io/tags/index.html</loc>
     
     <lastmod>2017-08-15T18:06:22.000Z</lastmod>
     
