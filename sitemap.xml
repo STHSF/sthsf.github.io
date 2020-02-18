@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://sthsf.github.io/2020/02/18/NLP--%E5%91%BD%E5%90%8D%E5%AE%9E%E4%BD%93%E8%AF%86%E5%88%AB/</loc>
+    
+    <lastmod>2020-02-18T08:33:49.702Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://sthsf.github.io/2020/02/14/%E5%B7%A5%E5%85%B7%E7%B1%BB%E4%BB%8B%E7%BB%8D--github/</loc>
     
     <lastmod>2020-02-15T09:52:57.723Z</lastmod>
@@ -86,20 +93,6 @@
   </url>
   
   <url>
-    <loc>http://sthsf.github.io/books/index.html</loc>
-    
-    <lastmod>2017-08-15T18:06:22.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://sthsf.github.io/categories/index.html</loc>
-    
-    <lastmod>2017-08-15T18:06:22.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://sthsf.github.io/links/index.html</loc>
     
     <lastmod>2017-08-15T18:06:22.000Z</lastmod>
@@ -107,7 +100,21 @@
   </url>
   
   <url>
+    <loc>http://sthsf.github.io/books/index.html</loc>
+    
+    <lastmod>2017-08-15T18:06:22.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://sthsf.github.io/repository/index.html</loc>
+    
+    <lastmod>2017-08-15T18:06:22.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://sthsf.github.io/categories/index.html</loc>
     
     <lastmod>2017-08-15T18:06:22.000Z</lastmod>
     
