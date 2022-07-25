@@ -4,70 +4,70 @@
   <url>
     <loc>http://sthsf.github.io/about/index.html</loc>
     
-    <lastmod>2020-10-13T03:42:30.227Z</lastmod>
+    <lastmod>2020-10-13T03:42:30.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://sthsf.github.io/2020/04/09/Paper%20Review--How%20to%20Fine-Tune%20BERT%20for%20Text%20Classification/</loc>
     
-    <lastmod>2020-04-09T08:41:08.278Z</lastmod>
+    <lastmod>2020-04-09T08:41:08.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://sthsf.github.io/2020/02/14/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F--%E5%AE%9E%E6%88%98/</loc>
     
-    <lastmod>2020-04-07T10:15:57.570Z</lastmod>
+    <lastmod>2020-04-07T10:15:57.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://sthsf.github.io/2020/02/14/%E5%B7%A5%E5%85%B7%E7%B1%BB%E4%BB%8B%E7%BB%8D--github/</loc>
     
-    <lastmod>2020-04-07T09:03:26.881Z</lastmod>
+    <lastmod>2020-04-07T09:03:26.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://sthsf.github.io/2020/02/14/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86--%E5%8F%A5%E5%AD%90%E5%85%B3%E7%B3%BB%E5%88%A4%E6%96%AD/</loc>
     
-    <lastmod>2020-03-11T07:59:33.178Z</lastmod>
+    <lastmod>2020-03-11T07:59:33.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://sthsf.github.io/2020/02/19/%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1---NEO4J/</loc>
     
-    <lastmod>2020-02-21T09:13:59.491Z</lastmod>
+    <lastmod>2020-02-21T09:13:59.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://sthsf.github.io/2020/02/18/NLP--%E5%91%BD%E5%90%8D%E5%AE%9E%E4%BD%93%E8%AF%86%E5%88%AB/</loc>
     
-    <lastmod>2020-02-19T08:03:46.312Z</lastmod>
+    <lastmod>2020-02-19T08:03:46.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://sthsf.github.io/2019/08/24/python%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86--%E5%8D%8F%E7%A8%8B/</loc>
     
-    <lastmod>2020-02-15T09:52:56.017Z</lastmod>
+    <lastmod>2020-02-15T09:52:56.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://sthsf.github.io/2019/03/16/%E6%99%BA%E8%83%BD%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%8E%A2%E7%B4%A2%E5%92%8C%E5%AE%9E%E8%B7%B5/</loc>
     
-    <lastmod>2019-09-19T01:10:48.296Z</lastmod>
+    <lastmod>2019-09-19T01:10:48.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://sthsf.github.io/2017/09/14/Tensorflow%E4%B8%AD%E7%9A%84%E5%85%B1%E4%BA%AB%E5%8F%98%E9%87%8F%E6%9C%BA%E5%88%B6/</loc>
     
-    <lastmod>2019-09-17T01:30:35.899Z</lastmod>
+    <lastmod>2019-09-17T01:30:35.000Z</lastmod>
     
   </url>
   
@@ -81,7 +81,7 @@
   <url>
     <loc>http://sthsf.github.io/2017/08/24/%E6%9E%81%E5%A4%A7%E4%BC%BC%E7%84%B6%E4%BC%B0%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/</loc>
     
-    <lastmod>2019-03-14T06:51:45.027Z</lastmod>
+    <lastmod>2019-03-14T06:51:45.000Z</lastmod>
     
   </url>
   
@@ -121,6 +121,13 @@
   </url>
   
   <url>
+    <loc>http://sthsf.github.io/categories/index.html</loc>
+    
+    <lastmod>2017-08-15T18:06:22.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://sthsf.github.io/books/index.html</loc>
     
     <lastmod>2017-08-15T18:06:22.000Z</lastmod>
@@ -128,7 +135,7 @@
   </url>
   
   <url>
-    <loc>http://sthsf.github.io/categories/index.html</loc>
+    <loc>http://sthsf.github.io/repository/index.html</loc>
     
     <lastmod>2017-08-15T18:06:22.000Z</lastmod>
     
@@ -143,13 +150,6 @@
   
   <url>
     <loc>http://sthsf.github.io/tags/index.html</loc>
-    
-    <lastmod>2017-08-15T18:06:22.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://sthsf.github.io/repository/index.html</loc>
     
     <lastmod>2017-08-15T18:06:22.000Z</lastmod>
     
